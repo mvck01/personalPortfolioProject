@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Funmilayo Olawale</div>
+        <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">John Doe</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggler  ()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links" onclick="toggler()">
+                <li><a href="#About" onclick="toggler()">About</a></li>
+                <li><a href="#Experience" onclick="toggler()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggler()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggler()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="Profile">
+        <div class="section-container">
+            <div class="img-section">
+                <img src="img/pPicture OG-PhotoRoom.jpg" alt="" class="img1">
+            </div>
+            <div class="profile-content">
+                <p class="section-text-p1">Hello, I am</p>
+                <h1 class="bigText">Funmilayo Olawale</h1>
+                <p class="section-text-p2">Frontend Developer</p>
+
+                <div class="btn-container">
+                    <button class="btn btn-1" onclick="window.open('./img/olawaleResume.pdf')">Download CV</button>
+                    <button class="btn btn-2" onclick="location.href='#Contact'">Contact us</button>
+                </div>
+                <div class="socials-section">
+                    <img src="img/linkedin.png" alt="Linkedn Profile" class="icon" onclick="window.open('https://linkedin.com/in/funmilayo-olawale0/')">
+                    <img src="img/github.png" alt="Github Profile" class="icon" onclick="window.open('https://github.com/mvck01')">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <div class="about-intro">
+            <p class="about-text-p1">Get to know more</p>
+            <h1 class="about-text-p2">About Me</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/mainPicture.jfif" alt="About Me Image" class="about-image">
+            </div>
+            <div class="about-info">
+                <div class="card-containers">
+                    <div class="about-card">
+                        <div class="card-img">
+                            <img src="img/experience.png" alt="experienceLogo" class="about-icon">
+                        </div>
+                        <h3 class="card-header">Experience</h3>
+                        <p class="about-text">2+ years</p>
+                        <p class="about-text">Frontend Development</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-img">
+                            <img src="img/education.png" alt="educationLogo" class="about-icon">
+                        </div>
+                        <h3 class="card-header">Education</h3>
+                        <p class="about-text">B.sc Bachelors Degree</p>
+                        <p class="about-text">M.sc Masters Degree </p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-text-info">
+                        Welcome to my portfolio! I'm Funmilayo Olawale, a versatile professional with a strong academic background and a deep passion for the intersection of technology and business innovation.
+I earned my Bachelor's in Computer Science in 2017 and recently completed my Master's in Business and Information Systems in 2023. This unique blend of education equips me with the ability to bridge the gap between technical expertise and strategic business thinking.
+Throughout my career, I've taken on various roles across diverse industries, honing my adaptability and problem-solving skills. I thrive on dissecting complex challenges and crafting innovative solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="img/arrow.png" alt="" class="icon arrow" onclick="location.href='#Experience'">
+    </section>
+    <section id="Experience">
+        <div class="section__header">
+            <p class="section-text-p1">Explore my</p>
+            <h1 class="about-text-p2">Experience</h1>
+        </div>
+        <div class="experience__section">
+            <div class="experience__details">
+                <p class="experience__header">Frontend Development</p>
+                <div class="experience__content">
+                    <div class="content1">
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>HTML</h1>
+                                <p class="content__subhead">Experienced</p>
+                            </div>
+                        </div>
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>SASS</h1>
+                                <p class="content__subhead">Basic</p>
+                            </div>
+                        </div>
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Typescript</h1>
+                                <p class="content__subhead">Basic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content2">
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>CSS</h1>
+                                <p class="content__subhead">Experienced</p>
+                            </div>
+                        </div>
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Javascript</h1>
+                                <p class="content__subhead">Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Material UI</h1>
+                                <p class="content__subhead">Basic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience__details">
+                <p class="experience__header">Backend Development</p>
+                <div class="experience__content">
+                    <div class="content1">
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Postgre SQL</h1>
+                                <p class="content__subhead">Basic</p>
+                            </div>
+                        </div>
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Express JS</h1>
+                                <p class="content__subhead">Basic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content2">
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Node JS</h1>
+                                <p class="content__subhead">Basic</p>
+                            </div>
+                        </div>
+                        <div class="inner__content">
+                            <div><img src="img/checkmark.png" alt="Checkmark" class="icon checkCon"></div>
+                            <div>
+                                <h1>Git</h1>
+                                <p class="content__subhead">Intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/arrow.png" alt="" class="icon arrow" onclick="location.href='#Projects'">
+    </section>
+    <section id="Projects">
+        <div class="projects__header">
+            <p class="section-text-p1">Browse my Recent</p>
+            <h1 class="about-text-p2">Projects</h1>
+        </div>
+        <div class="projects__container">
+            <div class="pj__cards">
+                <div class="project__image">
+                    <img src="img/project-1.png" alt=" Project 1 Image" class="img__project">
+                </div>
+                <div class="project__content">
+                    <h2 class="project_typo">Project One</h2>
+                    <p class="section-text-p1">A simple Lifestyle and travelling blog</p>
+                    <div class="project__btn">
+                        <button class="btn p-btn" onclick="window.open('https://github.com/mvck01/simpleLife-blog')">Github</button>
+                        <button class="btn p-btn" onclick="window.open('https://endearing-alfajores-a82e09.netlify.app/')">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pj__cards">
+                <div class="project__image">
+                    <img src="img/project-2.png" alt="Project 2 Image" class="img__project">
+                </div>
+                <div class="project__content">
+                    <h2 class="project_typo">Project Two</h2>
+                    <p class="section-text-p1">Personal Portfolio Website</p>
+                    <div class="project__btn">
+                        <button class="btn p-btn" onclick="location.href='#'">Github</button>
+                        <button class="btn p-btn" onclick="location.href='index.html'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" c3 pj__cards ">
+                <div class="project__image">
+                    <img src="img/project-3.png" alt="Project 3 Image" class="img__project">
+                </div>
+                <div class="project__content">
+                    <h2 class="project_typo">Project Three</h2>
+                    <div class="project__btn">
+                        <button class="btn p-btn" onclick="location.href='#'">Github</button>
+                        <button class="btn p-btn" onclick="location.href='#'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/arrow.png" alt="Arrow-logo" class="icon arrow" onclick="location.href='#Contact'">
+    </section>
+
+    <section id="Contact">
+        <div class="contact__container">
+            <div class="contacts__header">
+            <p class="section-text-p1">Get in Touch</p>
+            <h1 class="about-text-p2">Contact Me</h1>   
+        </div>
+        <div class="contacts_card">
+            <div class="email">
+                <img src="img/email.png" alt="Email Icon" class="icon cicon">
+                <p class="email_text"><a href="mailto:wfunmilayo01@gmail.com">wfunmilayo01@gmail.com</a></p>
+            </div>
+            <div class="linkedn">
+                <img src="img/email.png" alt="Linkedn icon" class="icon cicon" >
+                <p class="email_text" onclick="window.open('https://www.linkedin.com/in/funmilayo-olawale0/')">Linkedn</p>
+            </div>
+        </div>
+        </div>
+        <footer class="footer_class">
+            <nav class="footer_nav">
+                <ul class="nav__footer">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p class="footer_text">
+                Copyright © 2023 Funmilayo Olawale. All Rights Reserved
+            </p>
+        </footer>
+    </section>
+   
+    <script src="script.js"></script>
+</body>
+</html>
